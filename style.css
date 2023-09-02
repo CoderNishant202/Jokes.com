@@ -52,3 +52,9 @@ body {
     box-shadow: 5px 5px 5px rgb(255, 255, 154);
     cursor: pointer;
 }
+@media screen and (max-width:400px) {
+    body{
+        background-color: black;
+    };
+}
+
