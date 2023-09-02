@@ -18,8 +18,8 @@ body {
 }
 
 .container {
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 170px;
     background-color: #fff;
     border-radius: 5px;
     position: relative;
@@ -52,4 +52,16 @@ body {
     box-shadow: 5px 5px 5px rgb(255, 255, 154);
     cursor: pointer;
 }
-
+@media screen and (max-width: 320px){
+    .container {
+        width: 320px;
+        height: 200px;
+        background: antiquewhite;
+    }
+    .innerdiv{
+        height: 120px;
+    }
+    .joke{
+        margin-left: 8rem;
+    }
+}
